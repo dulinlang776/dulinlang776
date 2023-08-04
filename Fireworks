@@ -1,0 +1,10 @@
+or p in Fireworks:                #根据每个烟花对象，计算其中每个粒子的显示对象
+    oneP=p['particle']
+    if oneP.status==100:        #状态标识为100，说明烟花寿命结束
+        Fireworks.remove(p)     #移出当前烟花
+        appendFirework()           #新增一个烟花
+        continue
+    else:
+        li=[[int(cp[0]*2)+oneP.center[0],int(cp[1]*2)+oneP.center[1]] for cp in oneP.curParticle]       #把中心为原点的椭圆平移到随机圆心坐标上
+        color=colorChange(oneP)   #根据烟花当前状态计算当前颜色
+        for pp in 
