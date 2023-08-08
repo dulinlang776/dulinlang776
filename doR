@@ -1,0 +1,10 @@
+protected boolean doIsActive(String userId) throws UserProfileResourceException { 
+ 
+		System.out.println("SampleUserManagerImpl.doIsActive - This operation is not implemented !");  
+		return false; 
+	} 
+   
+	protected boolean doRemoveUser(String userId) throws UserProfileResourceException { 
+		 
+		System.out.println("SampleUserManagerImpl.doRemoveUser - This operation is not implemented !");  
+		return false; 
