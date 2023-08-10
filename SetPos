@@ -1,0 +1,5 @@
+
+void SetPos(int i, int j)//控制光标位置， 列， 行
+{
+	COORD pos = { i,j };
+	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
