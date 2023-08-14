@@ -1,0 +1,11 @@
+ ri.execute();
+    }
+
+    /** Add an invoice-item row.
+     * @param conn connection to Database
+     * @param inv_no invoice number
+     * @param item_no line number for item
+     * @param prod_no product number sold
+     * @param quantity quantity sold
+     * @param price price of one item
+     */
